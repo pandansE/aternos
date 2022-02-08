@@ -1,7 +1,7 @@
 {
 	"ip":"derreeeneeem.aternos.me",
 	"port": "57604",
-	"name": "SERVER_BOTH",
+	"name": "Jarvis",
 	"auto-night-skip":"true",
 	"login-enabled":"false",
 	"register-cmd":"/register pass123 ",
