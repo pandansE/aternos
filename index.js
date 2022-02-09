@@ -7,7 +7,7 @@ var lasttime = -1;
 var moving = 0;
 var first = false;
 var connected = 0;
-var actions = [ 'forward', 'back', 'left', 'right']
+var actions = [ 'forward', 'right', 'left', 'right', ]
 var lastaction;
 var pi = 3.14159;
 var moveinterval = 2; // 2 second movement interval
@@ -39,18 +39,18 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Sukses Login")
-	bot.chat("Halo semua");
+	bot.chat("aku di ciptakan oleh deren/pandansE
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("Diperbarui oleh vanevgt")
-	first = false;
+	bot.chat("Hello my name Jarvis i'm a programs in this server i create by deren/pandansE")
+	first = true;
 	}
 	else{
-		bot.chat("Diperbarui oleh vanevgt")
+		bot.chat("Hello my name Jarvis i'm a programs in this server i create by deren/pandansE")
 		first = true;
 	}
   }, 3600000 * i); 
