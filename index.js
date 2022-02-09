@@ -39,7 +39,7 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Sukses Login")
-	bot.chat("aku di ciptakan oleh deren/pandansE")
+	bot.chat("/register 12345")
 });
   
 function task(i) { 
